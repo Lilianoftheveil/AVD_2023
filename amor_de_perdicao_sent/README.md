@@ -16,7 +16,7 @@ grep VMI enty_amor_de_perdicao.tag | sort | uniq -c | sort -n > verb_amor_de_per
 
 Após isso, fiz o upload do arquivo <i>"verb_amor_de_perdicao.csv"</i> no Google Sheets, ordenei a lista de ocorrências em ordem decrescente e assim fiz um gráfico de barras para vizualizar os 15 verbos que mais aparecem no livro <i>"Camilo-Amor_de_Perdicao.txt"</i>
 
-![chart.svg](attachment:chart.svg)
+![My Image](verbs_by _occurrences.png)
 
 Em seguida, utilizei o comando <i>sent</i> - também da ferramenta <b>linguakit</b> - para analisar o sentimento dos verbos listados em <i>"verb_amor_de_perdicao.csv"</i> e salvar o output em outro arquivo de extensão .csv <i>"verb_sent_perdicao.csv"</i>
 
@@ -27,4 +27,4 @@ linguakit sent pt verb_amor_de_perdicao.csv > verb_sent_perdicao.csv
 
 Por fim, fiz a limpeza dos dados em <i>"verb_sent_perdicao.csv"</i> criando um filtro para vizualizar somente os verbos que tivessem um sentimento positivo ou negativo atribuído a eles, e os ordenei em seguida por ordem descescente. Assim, podemos vizualizar - entre os verbos que mais ocorrem no livro - aqueles que tem algum sentimento agregado ao mesmo, e qual sentimento é esse.
 
-![chart%20%281%29.svg](attachment:chart%20%281%29.svg)
+![My Image](verbs_by_sentiment.png)
