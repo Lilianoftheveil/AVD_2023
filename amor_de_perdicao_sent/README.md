@@ -16,7 +16,7 @@ grep VMI enty_amor_de_perdicao.tag | sort | uniq -c | sort -n > verb_amor_de_per
 
 Após isso, fiz o upload do arquivo <i>"verb_amor_de_perdicao.csv"</i> no Google Sheets, ordenei a lista de ocorrências em ordem decrescente e assim fiz um gráfico de barras para vizualizar os 15 verbos que mais aparecem no livro <i>"Camilo-Amor_de_Perdicao.txt"</i>
 
-![My Image](verbs_by _occurrences.png)
+![My Image](verbs_by_occurrences.png)
 
 Em seguida, utilizei o comando <i>sent</i> - também da ferramenta <b>linguakit</b> - para analisar o sentimento dos verbos listados em <i>"verb_amor_de_perdicao.csv"</i> e salvar o output em outro arquivo de extensão .csv <i>"verb_sent_perdicao.csv"</i>
 
